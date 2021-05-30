@@ -27,7 +27,7 @@ try:
 
 except:
     print( "  " )
-    print( "\n               {RED}      НЕВЕРНЫЙ АЙПИ! \n" )
+    print( f"\n               {RED}     НЕВЕРНЫЙ АЙПИ! \n" )
     print( " " )
     print( " " )
     os.system("python ip-info.py")
